@@ -1,4 +1,4 @@
-# 🧠**⚙️ Steel Sulphur Prediction Model**
+# **⚙️ Steel Sulphur Prediction Model**
 
 ## 📌**Overview**
 
