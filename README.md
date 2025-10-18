@@ -1,11 +1,13 @@
-# ⚙️ Steel Sulphur Prediction Model
-## 🔬 Machine Learning-Based Predictive Model for DeSulphurization (DS) Optimization
-## 📌 **Overview**
+# 🧠**⚙️ Steel Sulphur Prediction Model**
+
+## 📌**Overview**
 
 The Steel Sulphur Prediction Model is a terminal-based machine learning project developed to predict the Sulphur percentage (DS_S) in molten steel during the DeSulphurization (DS) process.
 This project leverages Linear Regression and data optimization techniques to enhance process control, minimize downgraded heats, and ensure consistent product quality in steel manufacturing.
 
-#🧩 Problem Statement
+---
+
+## ✨ Problem Statement
 
 High Sulphur content in steel leads to downgrading, affecting delivery schedules and sales performance.
 Mr. Suresh Babu sought an analytics-driven solution to accurately predict and control Sulphur levels during the DS process.
@@ -17,71 +19,55 @@ Predict Sulphur levels precisely before and after desulphurization.
 Optimize reagent usage and reduce reprocessing.
 
 Improve delivery timelines and production efficiency.
+---
 
+## 🎯 Objectives
 
-# 🎯 Objectives
+- ✅ Improve predictive accuracy of Sulphur percentage.
 
-✅ Improve predictive accuracy of Sulphur percentage.
-✅ Enhance control over the DeSulphurization process.
-✅ Minimize downgraded heats and losses.
-✅ Support process engineers with actionable data insights.
+- ✅ Enhance control over the DeSulphurization process.
 
+- ✅ Minimize downgraded heats and losses.
 
-#⚗️ About the DS (DeSulphurization) Process
+- ✅ Support process engineers with actionable data insights.
 
-The DeSulphurization process (DS) removes excess Sulphur from molten steel to meet quality standards.
+## 🚀 Features
 
-Traditional Reagents: Calcium Carbide (CaC₂) and Magnesium (Mg)
+- Predictive Modeling – Estimates final Sulphur (DS_S) values with optimized accuracy.
 
-Modern Approach: Limestone, as an eco-friendly and cost-effective substitute
+- Linear Regression Algorithm – Establishes a direct relationship between steel composition and Sulphur outcomes.
 
-Purpose: Lower Sulphur levels improve steel strength, ductility, and weldability
+- Automated Evaluation – Computes MSE, R², and Hit Rate for both training and test sets.
 
+- Pickle-Based Model Saving – Exports the model for future reuse and deployment.
 
-#🧠 Data Optimization Pipeline
+- Terminal Output – Lightweight, fully functional command-line project (no frontend required).
+---
 
-Your model applies a clean, optimized data science workflow for maximum reliability:
+## Algorithm Used – Linear Regression
 
-🧹 Null Value Removal: Ensures consistent and complete input data.
+- A supervised learning algorithm that learns from labeled datasets (known output values).
 
-📊 Feature Selection: Uses relevant variables like temperature, reagent amounts, and chemistry.
+- Fits an optimized linear equation to map process parameters (inputs) to predicted Sulphur content (output).
 
-⚙️ Scaling: Applies StandardScaler for normalized feature distribution.
+- Enables interpretability and continuous improvement in process analytics.
 
-🧩 Splitting: 67%-33% split between training and testing datasets.
+---
 
-🧠 Model Training: Uses Linear Regression to fit the data.
+## 🛠️Technology
 
-🧾 Evaluation: Measures performance using MSE, R², and a custom “Hit Rate” metric (±0.003 tolerance).
+- Language: Python 🐍
 
-#🚀 Features
+- Libraries: Pandas, NumPy, Scikit-learn, Pickle
 
-🔹 Predictive Modeling – Estimates final Sulphur (DS_S) values with optimized accuracy.
-🔹 Linear Regression Algorithm – Establishes a direct relationship between steel composition and Sulphur outcomes.
-🔹 Automated Evaluation – Computes MSE, R², and Hit Rate for both training and test sets.
-🔹 Pickle-Based Model Saving – Exports the model for future reuse and deployment.
-🔹 Terminal Output – Lightweight, fully functional command-line project (no frontend required).
+- Dataset: DSDataLastThreeMonths.csv
 
-# 🧮 Algorithm Used – Linear Regression
+---
 
-A supervised learning algorithm that learns from labeled datasets (known output values).
+## 🎯 Outcome
 
-Fits an optimized linear equation to map process parameters (inputs) to predicted Sulphur content (output).
+- ✅ Improved prediction accuracy
 
-Enables interpretability and continuous improvement in process analytics.
+- ✅ Better DS process control
 
-#🛠️ Tech Stack
-
-Python, Pandas, NumPy, Scikit-learn, Pickle
-Dataset: DSDataLastThreeMonths.csv
-
-#💻 Run Instructions
-
-pip install -r requirements.txt
-python sulphur_prediction.py
-
-#🧾 Outcome
-
-✅ Improved prediction accuracy
-✅ Better DS process control
-✅ Reduced downgraded heats
+- ✅ Reduced downgraded heats
