@@ -4,8 +4,8 @@
 
 The Steel Sulphur Prediction Model is a terminal-based machine learning project developed to predict the Sulphur percentage (DS_S) in molten steel during the DeSulphurization (DS) process.
 This project leverages Linear Regression and data optimization techniques to enhance process control, minimize downgraded heats, and ensure consistent product quality in steel manufacturing.
----
-🧩 Problem Statement
+
+#🧩 Problem Statement
 
 High Sulphur content in steel leads to downgrading, affecting delivery schedules and sales performance.
 Mr. Suresh Babu sought an analytics-driven solution to accurately predict and control Sulphur levels during the DS process.
@@ -17,7 +17,7 @@ Predict Sulphur levels precisely before and after desulphurization.
 Optimize reagent usage and reduce reprocessing.
 
 Improve delivery timelines and production efficiency.
----
+
 
 # 🎯 Objectives
 
@@ -25,7 +25,7 @@ Improve delivery timelines and production efficiency.
 ✅ Enhance control over the DeSulphurization process.
 ✅ Minimize downgraded heats and losses.
 ✅ Support process engineers with actionable data insights.
----
+
 
 #⚗️ About the DS (DeSulphurization) Process
 
@@ -36,7 +36,7 @@ Traditional Reagents: Calcium Carbide (CaC₂) and Magnesium (Mg)
 Modern Approach: Limestone, as an eco-friendly and cost-effective substitute
 
 Purpose: Lower Sulphur levels improve steel strength, ductility, and weldability
----
+
 
 #🧠 Data Optimization Pipeline
 
@@ -53,7 +53,6 @@ Your model applies a clean, optimized data science workflow for maximum reliabil
 🧠 Model Training: Uses Linear Regression to fit the data.
 
 🧾 Evaluation: Measures performance using MSE, R², and a custom “Hit Rate” metric (±0.003 tolerance).
----
 
 #🚀 Features
 
@@ -62,7 +61,6 @@ Your model applies a clean, optimized data science workflow for maximum reliabil
 🔹 Automated Evaluation – Computes MSE, R², and Hit Rate for both training and test sets.
 🔹 Pickle-Based Model Saving – Exports the model for future reuse and deployment.
 🔹 Terminal Output – Lightweight, fully functional command-line project (no frontend required).
----
 
 # 🧮 Algorithm Used – Linear Regression
 
@@ -71,24 +69,19 @@ A supervised learning algorithm that learns from labeled datasets (known output 
 Fits an optimized linear equation to map process parameters (inputs) to predicted Sulphur content (output).
 
 Enables interpretability and continuous improvement in process analytics.
----
-
 
 #🛠️ Tech Stack
 
 Python, Pandas, NumPy, Scikit-learn, Pickle
 Dataset: DSDataLastThreeMonths.csv
----
 
 #💻 Run Instructions
 
 pip install -r requirements.txt
 python sulphur_prediction.py
----
 
 #🧾 Outcome
 
 ✅ Improved prediction accuracy
 ✅ Better DS process control
 ✅ Reduced downgraded heats
----
